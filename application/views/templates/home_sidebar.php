@@ -39,10 +39,10 @@
             <li>
               <a href="data_pengambilan_obat"><i class="fas fa-hand-holding-medical fa-fw"></i> Pengambilan Obat</a>
             </li>
-            <li>
-              <a href="cetak_kartu"><i class="fas fa-print fa-fw"></i> Cetak Kartu</a>
-            </li>
           </ul>
+        </li>
+        <li>
+          <a href="cetak_kartu"><i class="fas fa-print fa-fw"></i> Cetak Kartu</a>
         </li>
         <li><a><i class="fa fa-print fa-fw" aria-hidden="true"></i>Laporan<span class="fa fa-chevron-down"></span></a>
           <ul class="nav child_menu">
