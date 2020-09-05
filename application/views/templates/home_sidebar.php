@@ -20,9 +20,12 @@
             <li>
               <a href="data_stok_opname"><i class="fas fa-briefcase-medical fa-fw"></i> Data Stok Opname</a>
             </li>
+            <li>
+              <a href=""><i class="fas fa-print fa-fw"></i> Cetak Kartu</a>
+            </li>
           </ul>
         </li>
-        <li><a><i class="fas fa-stethoscope"></i>Transaksi<span class="fa fa-chevron-down"></span></a>
+        <li><a><i class="fa fa-cart-plus fa-fw" aria-hidden="true"></i>Transaksi<span class="fa fa-chevron-down"></span></a>
           <ul class="nav child_menu">
             <li>
               <a href="data_pendaftaran_pasien"><i class="fas fa-user-plus fa-fw"></i> Pendaftaran</a>
