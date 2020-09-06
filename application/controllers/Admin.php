@@ -15,7 +15,6 @@ class Admin extends CI_Controller
         $data['judul'] = 'Dashboard';
         $data['pengguna'] = $this->Admin_model->getAllPengguna();
         $data['user'] = $this->db->get_where('pengguna', ['username' => $this->session->userdata('username')])->row_array();
-
         $this->load->view('templates/home_header', $data);
         $this->load->view('templates/home_sidebar', $data);
         $this->load->view('templates/home_top_navigation', $data);
@@ -73,6 +72,7 @@ class Admin extends CI_Controller
     public function detailPengguna($id)
     {
         $data['judul'] = 'Detail Data Pengguna';
+        $data['user'] = $this->db->get_where('pengguna', ['username' => $this->session->userdata('username')])->row_array();
         $data['pengguna'] = $this->Admin_model->getPenggunaById($id);
         $this->load->view('templates/header', $data);
         $this->load->view('admin/detail', $data);
