@@ -3,7 +3,7 @@
    <div class="">
      <div class="page-title">
        <div class="title_center">
-         <h3>admin Halo <?= $pengguna['nama']; ?> anda login sebagai <?= $pengguna['kode_role']; ?></h3>
+         <h3>admin Halo <?= $user['nama']; ?> anda login sebagai <?= $user['kode_role']; ?></h3>
        </div>
        <div class="title_right">
        </div>

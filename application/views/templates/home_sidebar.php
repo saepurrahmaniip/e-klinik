@@ -9,7 +9,7 @@
         <li><a><i class="fa fa-database fa-fw" aria-hidden="true"></i>Master Data<span class="fa fa-chevron-down fa-fw"></span></a>
           <ul class="nav child_menu">
             <li>
-              <a href="data_pengguna"><i class="fas fa-users fa-fw"></i> Pengguna</a>
+              <a href="<?= base_url(); ?>data_pengguna"><i class="fas fa-users fa-fw"></i> Pengguna</a>
             </li>
             <li>
               <a href="data_pasien"><i class="fas fa-user-injured fa-fw"></i> Pasien</a>
@@ -18,7 +18,7 @@
               <a href="data_rekam_medis"><i class="fas fa-file-medical fa-fw"></i> Rekam Medis</a>
             </li>
             <li>
-              <a href="data_stok_opname"><i class="fas fa-briefcase-medical fa-fw"></i> Data Stok Opname</a>
+              <a href="<?= base_url(); ?>data_stok_opname"><i class="fas fa-briefcase-medical fa-fw"></i> Data Stok Opname</a>
             </li>
             <li>
               <a href=""><i class="fas fa-print fa-fw"></i> Cetak Kartu</a>

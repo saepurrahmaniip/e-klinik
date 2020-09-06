@@ -9,11 +9,11 @@
         <ul class=" navbar-right">
           <li class="nav-item dropdown open" style="padding-left: 15px;">
             <a href="" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
-              <?= $pengguna['nama']; ?>
+              <?= $user['nama']; ?>
             </a>
             <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="javascript:;"><i class="fa fa-user" aria-hidden="true"></i> Akun</a>
-              <a class="dropdown-item" href=""><i class="fas fa-user-cog fa-fw"></i> Pengaturan</a>
+              <a class="dropdown-item" href=""><i class="fas fa-user-cog"></i> Pengaturan</a>
               <a class="dropdown-item" href="<?= base_url() ?>auth/logout"><i class="fas fa-sign-out-alt"></i> Keluar</a>
             </div>
           </li>
