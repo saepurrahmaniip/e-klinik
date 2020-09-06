@@ -66,8 +66,8 @@
               ?>
               <td class=" "><?= $status_user; ?></td>
               <td class=" last">
-                <a href="<?= base_url(); ?>admin/ubah/<?= $users['kode_user']; ?>" class="btn btn-info btn-sm float rihgt" type="button">Ubah </a>
-                <a href="<?= base_url(); ?>admin/hapus/<?= $users['kode_user']; ?>" class="btn btn-info btn-sm tombol-hapus">Hapus</a>
+                <a href="<?= base_url(); ?>admin/ubahpengguna/<?= $users['kode_user']; ?>" class="btn btn-info btn-sm float rihgt" type="button">Ubah </a>
+                <a href="<?= base_url(); ?>admin/hapuspengguna/<?= $users['kode_user']; ?>" class="btn btn-info btn-sm tombol-hapus">Hapus</a>
               </td>
 
             </tr>

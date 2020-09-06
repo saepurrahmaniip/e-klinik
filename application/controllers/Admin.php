@@ -63,14 +63,14 @@ class Admin extends CI_Controller
         $this->load->view('templates/home_footer');
     }
 
-    public function hapus($id)
+    public function hapusPengguna($id)
     {
         $this->Admin_model->hapusDataPengguna($id);
         $this->session->set_flashdata('flash', 'Dihapus');
         redirect('admin/data_pengguna');
     }
 
-    public function detail($id)
+    public function detailPengguna($id)
     {
         $data['judul'] = 'Detail Data Pengguna';
         $data['pengguna'] = $this->Admin_model->getPenggunaById($id);
@@ -79,7 +79,7 @@ class Admin extends CI_Controller
         $this->load->view('templates/footer');
     }
 
-    public function ubah($id)
+    public function ubahPengguna($id)
     {
         $data['judul'] = 'Form Ubah Data Pengguna';
         $data['user'] = $this->db->get_where('pengguna', ['username' => $this->session->userdata('username')])->row_array();
