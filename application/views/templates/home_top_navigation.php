@@ -12,8 +12,8 @@
               <?= $user['nama']; ?>
             </a>
             <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="javascript:;"><i class="fa fa-user" aria-hidden="true"></i> Akun</a>
-              <a class="dropdown-item" href=""><i class="fas fa-user-cog"></i> Pengaturan</a>
+              <a class="dropdown-item" href="index"><i class="fa fa-user" aria-hidden="true"></i> Akun</a>
+              <a class="dropdown-item" href="ubahpengguna/<?= $user['kode_user']; ?>"><i class=" fas fa-user-cog"></i> Pengaturan</a>
               <a class="dropdown-item" href="<?= base_url() ?>auth/logout"><i class="fas fa-sign-out-alt"></i> Keluar</a>
             </div>
           </li>
