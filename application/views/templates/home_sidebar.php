@@ -4,7 +4,7 @@
     <div class="menu_section">
       <!-- <h3>General</h3> -->
       <ul class="nav side-menu">
-        <li><a href="admin/index"><i class="fa fa-tachometer fa-fw" aria-hidden="true"></i>Dashboard</a>
+        <li><a href="index"><i class="fa fa-tachometer fa-fw" aria-hidden="true"></i>Dashboard</a>
         </li>
         <li><a><i class="fa fa-database fa-fw" aria-hidden="true"></i>Master Data<span class="fa fa-chevron-down fa-fw"></span></a>
           <ul class="nav child_menu">
